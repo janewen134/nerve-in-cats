@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+			body {
+				background-color: black;
+			}
+			.box {
+				height:630px;
+				width:760px;
+				border:0px solid #ff85ff;
+				margin:12px auto;
+				background-image:url("./pic/bg.png");
+				background-size:760px 630px;
+				background-repeat: no-repeat;
+				float:center;
+			}
+			.prop {
+				border:0px solid #FF85FF;
+				width:150px;
+				height:520px;
+				float:right;
+			}
+        </style>
+		<script src="./js/app02.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./js/app03.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+		<div class="box">
+			<canvas id="gameView" width="600px" height="630px" style="border:0px solid aquamarine;"></canvas>       
+			<div class="prop" >
+				<div style="height:150px;width:150px;"></div>
+				<h3><font color=white>PlayerName:</font></h3>
+				<textarea id="t01" name="text01" value="" rows="1" cols="16" style="text-align: center;" ></textarea>
+				
+				<div style="height:20px;width:150px;"></div>
+				<h3><font color=white>Step:</font></h3>
+				<textarea id="t02" name="text02" value="" rows="1" cols="16" style="text-align: center;"></textarea>
+				
+				<div style="height:20px;width:150px;"></div>
+				<h3><font color=white>Time:</font></h3>
+				<textarea id="t03" name="text03" value="" rows="1" cols="16" style="text-align: center;"></textarea>
+				
+				<div style="height:20px;width:150px;"></div>
+				<h3><font color=darkorange>Score:</font></h3>
+				<textarea id="t04" name="text04" value="" rows="1" cols="16" style="text-align: center;"></textarea>
+				<div id="b01" style="margin-top:50px; padding-top: 10px; padding-left: 15px; color:white; width:116px; height:30px; border:1px solid #ffffff;background-color:#555555" >PLAY AGAIN</div>
+			</div>
+		</div>
+        <script src="./js/app01.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
